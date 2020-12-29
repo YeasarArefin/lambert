@@ -1,0 +1,930 @@
+html{
+
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 50px;
+}
+
+header#head {
+    background: linear-gradient(#0000007a,#00000061,#00000061),url(9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-right: 245px;
+}
+
+.mediaIcons {
+    float: left;
+    overflow: hidden;
+    margin-left: -145px;
+    margin-top: -18px;
+}
+
+.menus {
+    float: left;
+    overflow: hidden;
+    width: 775px;
+    margin-top: 15px;
+}
+
+.menus ul li {
+    float: left;
+    padding: 5px 16px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.mediaIcons a i {
+    color: white;
+    margin-right: 10px;
+}
+
+.navbar {
+    margin-bottom: 300px;
+}
+
+.middleLogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.middleText h1 {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.middleText h3 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.starlogo {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.middleText h3:after {
+    content: "";
+    position: absolute;
+    bottom: 455px;
+    background: #C59D5F;
+    width: 80px;
+    height: 1px;
+    right: 670px;
+}
+
+.middleText h3:before {
+    content: "";
+    position: absolute;
+    bottom: 455px;
+    background: #C59D5F;
+    width: 80px;
+    height: 1px;
+    left: 670px;
+}
+
+.starlogo i {
+    width: 100px;
+    height: 50px;
+    border: 3px solid #C59D5F;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top: none;
+}
+
+.mediaIcons a i:hover {
+    color: #C59D5F;
+    transition: .5s;
+}
+
+.downBtn {
+    text-align: center;
+}
+
+.downBtn button {
+    padding: 33px 39px;
+    border-radius: 100%;
+    margin-top: -18px;
+    background: #fff;
+    outline: none;
+    border: none;
+}
+
+.downBtn button i:hover {
+    color: #C59D5F;
+    transition: .5s;
+}
+
+.Lside {
+    width: 610px;
+    float: left;
+}
+
+.RsideImage {
+    width: 550px;
+    float: right;
+    margin-top: 80px;
+}
+
+.RsideImage img {
+    width: 100%;
+}
+
+.sideTextTittle h1 {
+    text-align: center;
+    font-family: 'Playball';
+    font-size: 60px;
+    color: #c59d5f;
+    font-weight: 500;
+}
+
+.sideTextTittle h3 {
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sideTextTittleLogo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sideTextPara {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.sideTextPara p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+span.sideTextdiscover {
+    font-size: 20px;
+    font-family: 'Playball';
+    color: #c59d5f;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.sideTextTittle h3:after {
+    content: "";
+    position: absolute;
+    bottom: -163px;
+    width: 25px;
+    height: 4px;
+    border: 1px solid #c59d5f;
+    background: white;
+    border-left: none;
+    border-right: none;
+    left: 735px;
+}
+
+.sideTextTittle h3:before {
+    content: "";
+    position: absolute;
+    bottom: -163px;
+    width: 25px;
+    height: 4px;
+    border: 1px solid #c59d5f;
+    background: white;
+    border-left: none;
+    border-right: none;
+    left: 580px;
+}
+
+section#Discover {
+    margin-bottom: 100px;
+}
+
+section#openingHours {
+    background: linear-gradient(#0000007a,#00000061,#00000061),url(28.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.openingText {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.openingText h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.openingText span {
+    color: #c59d5f;
+    font-family: 'Playball';
+    font-size: 30px;
+}
+
+.days {
+    width: 240px;
+    float: left;
+    margin-right: 170px;
+    text-align: center;
+    margin-left: 270px;
+}
+
+.wrapper :nth-child(3){
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.days h3 {
+    color: #c59d5f;
+    font-family: 'Playball';
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.days span {
+    display: block;
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: system-ui;
+}
+
+.number {
+    float: left;
+    width: 200px;
+    margin-left: 430px;
+    margin-top: 100px;
+}
+
+.number h1 {
+    color: #c59d5f;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Playball';
+}
+
+.openingText span:after {
+    content: "";
+    bottom: -885px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 720px;
+}
+
+.openingText span:before {
+    content: "";
+    bottom: -885px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 1060px;
+}
+
+.number h1:after {
+    content: "";
+    bottom: -888px;
+    background: white;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    left: 955px;
+}
+
+section#openingHours {
+    margin-bottom: 80px;
+}
+
+span.sideTextdiscover:hover {
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+section#weeklyDays {
+    background: linear-gradient(#0000007a,#00000061,#00000061),url(8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.weaklyDeals {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.weaklyDeals h1 {
+    color: white;
+    font-size: 44px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.weaklyDeals span {
+    color: #C59D5F;
+    font-size: 35px;
+    font-family: 'Playball';
+}
+
+h1.dayName {
+    display: inline;
+    color: white;
+    font-family: system-ui;
+    margin-right: 10px;
+}
+
+span.bracketText {
+    color: white;
+    font-size: 15px;
+}
+
+h3.foodName {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+spam.dot {
+    font-size: 10px;
+}
+
+span.delNum {
+    font-size: 14px;
+    color: #C59D5F;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+span.price {
+    font-size: 28px;
+    font-style: normal;
+}
+
+.weaklyDeals span:after {
+    content: "";
+    bottom: -2365px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 1060px;
+}
+
+.weaklyDeals span:before {
+    content: "";
+    bottom: -2365px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 720px;
+}
+
+.weaklyDeals h1:after {
+    content: "";
+    bottom: -2380px;
+    background: white;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    left: 955px;
+}
+
+.teamDetails {
+    width: 751px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.teamDetails p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: inherit;
+    font-family: system-ui;
+}
+
+.singlePerson {
+    width: 165px;
+    float: left;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.singlePersonImg {
+    width: 155px;
+    position: relative;
+}
+
+.singlePersonImg img {
+    width: 100%;
+    border-radius: 100%;
+    position: relative;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    background: rgba(255, 255, 255, 0.685);
+    height: 155px;
+    border-radius: 100%;
+    opacity:0;
+    transition:0.7s;
+    -webkit-transition:0.7s;
+    -moz-transition:0.7s;
+    -ms-transition:0.7s;
+    -o-transition:0.7s;
+}
+
+.overlaytext {
+    position: absolute;
+    top: 64px;
+    left: 42px;
+    color: black;
+    font-family: 'Playball';
+}
+
+.overlay:hover{
+
+    opacity:1;
+}
+
+
+
+
+
+.singlePerson:nth-child(4){
+    margin-right: 0px;
+}
+
+.personWrapper {
+    width: 870px;
+    margin: auto;
+}
+
+.nameInfo h3 {
+    font-family: 'Playball';
+    margin-bottom: 8px;
+}
+
+.nameInfo span {
+    color: #C59D5F;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.teamDetails p:after {
+    content: "";
+    bottom: -3390px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 1060px;
+}
+
+.teamDetails p:before {
+    content: "";
+    bottom: -3390px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 724px;
+}
+
+.sideTextTittleLogo:after {
+    content: "";
+    bottom: -3400px;
+    background: #423f3f;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    left: 955px;
+}
+
+section#ourTeams {
+    margin-bottom: 100px;
+}
+
+section#testimonials {
+    background: linear-gradient(#0000007a,#00000061,#00000061),url(1.1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ftrText {
+    width: 850px;
+    margin: auto;
+}
+
+.ftrText p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+    font-family: system-ui;
+    margin-bottom: 30px;
+}
+
+.LRiconsWrapper {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.LRiconsWrapper i {
+    font-size: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.LRiconsWrapper i:last-child {
+    margin-right: 0px;
+}
+
+.fiveStars {
+    width: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #C59D5F;
+    cursor: e-resize;
+}
+
+.LRiconsWrapper i:hover {
+    color: #C59D5F;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.LRiconsWrapper:after {
+    content: "";
+    bottom: -4085px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 1060px;
+}
+
+.LRiconsWrapper:before {
+    content: "";
+    bottom: -4085px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 725px;
+}
+
+.fiveStars:after {
+    content: "";
+    bottom: -4090px;
+    background: white;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    left: 950px;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.name span {
+    font-family: 'Playball';
+    color: #C59d5f;
+    font-size: 20px;
+}
+
+.comma {width: 65px;text-align: center;margin: auto;}
+
+.comma i {
+    font-size: 20px;
+    color: #c59d5f;
+    padding: 20px 20px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background: rgba(255,255,255,0.21);
+}
+
+section#footer {
+    height: 500px;
+    background: #191919;
+}
+
+.dot {
+    text-align: center;
+    margin-top: 230px;
+}
+
+.dot i {
+    color: #c59d5f;
+    font-size: 12px;
+    padding: 30px 32px;
+    background: #191919;
+    border-radius: 100%;
+    position: relative;
+}
+
+.ourTwitter {
+    width: 300px;
+    margin-top: 60px;
+    float: left;
+}
+
+.ourTwitter h3 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-bottom: 15px;
+}
+
+.ourTwitter p {
+    color: white;
+    font-family: 'Playball';
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ourTwitter p span {
+    color: #c59d5f;
+}
+
+.ourIcons {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.ourIcons i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.ourIcons i:last-child{
+    margin-right: 0px;
+}
+
+.ourIcons i:nth-child(2){
+    color: #C59D5F;
+}
+
+.ourIcons i:last-child:hover {
+    color: #C59D5F;
+    transition: .5s;
+} 
+
+.ourIcons i:first-child:hover{
+    color: #C59D5F;
+    transition: .5s;
+}
+
+.findus {
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 135px;
+}
+
+.findText h3 {
+    color: #c59d5f;
+    font-family: 'Playball';
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.findIcons i {
+    color: white;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.findText {
+    margin-bottom: 15px;
+}
+
+.nwes {
+    width: 300px;
+    float: left;
+    margin-top: 60px;
+}
+
+.newsText h3 {
+    text-align: center;
+}
+
+input#news {
+    padding: 12px 55px;
+    outline: none;
+}
+
+.newsText {
+    margin-bottom: 20px;
+}
+
+i.fas.fa-envelope {
+    color: #c59d5f;
+    position: absolute;
+    right: 405px;
+    top: 5788px;
+}
+
+.ourTwitter {
+    margin-right: 135px;
+}
+
+.newsText h3 {
+    color: white;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.footerContact {
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+}
+
+.footerContact span {
+    margin-right: 60px;
+    color: #919191;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.footerContact span:last-child {
+    margin-right: 0px;
+}
+
+.footerContact span:first-child:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    background: #919191;
+    border-radius: 100%;
+    right: 1098px;
+    top: 6048px;
+}
+
+.footerContact span:last-child:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    background: #919191;
+    border-radius: 100%;
+    right: 830px;
+    top: 6048px;
+}
+
+.findIcons i:hover {
+    color: #c59d5f;
+    transition: .5s;
+}
+
+.background {
+    padding-bottom: 40px;
+    margin-top: -12px;
+}
+
+footer#copyRight {
+    background: #262526;
+}
+
+.background span:nth-child(2) {
+    margin-right: 845px;
+    font-family: 'Playball';
+    color: white;
+}
+
+.background span:nth-child(1) {
+    margin-right: 5px;
+    font-family: 'Playball';
+    color: #c59d5f;
+}
+
+.background span:nth-child(3) {
+    color: #c59d5f;
+    font-family: 'Playball';
+}
+
+.footerContact span:hover {
+    color: #c59d5f;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footerContact span:first-child:before {
+    content: "";
+    bottom: -5000px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 1060px;
+}
+
+.footerContact span:last-child:before {
+    content: "";
+    bottom: -5000px;
+    background: #c59d5f;
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    right: 735px;
+}
+
+.footerContact span:nth-child(2):after {
+    content: "";
+    bottom: -5010px;
+    background: white;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    left: 950px;
+}
+
+.menus ul li:first-child {
+    color: #c59d5f;
+}
+
+
+
+
